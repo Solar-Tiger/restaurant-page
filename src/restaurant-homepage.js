@@ -1,4 +1,4 @@
-import tacoImage from './assets/images/chaos-kitchen-logo.png';
+import chaosKitchenLogo from './assets/images/chaos-kitchen-logo.png';
 
 export default function loadRestaurantHomepage() {
   const homepageContent = document.getElementById('content');
@@ -13,10 +13,10 @@ export default function loadRestaurantHomepage() {
 
   h1.textContent = "Welcome to Random's Chaos Kitchen!";
 
-  img.src = tacoImage;
+  img.src = chaosKitchenLogo;
   img.width = '340';
   img.height = '190';
-  img.alt = 'chaos tacos';
+  img.alt = 'chaos kitchen logo';
 
   p.textContent =
     "You won't find more chaos and mayhem then here at the Chaos Kitchen! We whip you up storms of meals that even the gods themselves would find hard to quell!";
