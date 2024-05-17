@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+div > h1 {
+  max-width: 70ch;
+  margin: 8px;
+}
+
+#content {
+  p {
+    max-width: 340px;
+  }
+  h1 {
+    text-align: center;
+  }
+}
+
+.menu-header {
+  margin: 8px;
+}
