@@ -20,6 +20,8 @@ div > h1 {
 }
 
 #content {
+  padding-top: 6px;
+
   p {
     max-width: 340px;
   }
