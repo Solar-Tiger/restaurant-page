@@ -33,3 +33,15 @@ div > h1 {
 .menu-header {
   margin: 8px;
 }
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+nav button {
+  padding: 8px 16px;
+  margin: 0 16px;
+}
