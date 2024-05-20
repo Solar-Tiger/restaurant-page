@@ -4,7 +4,8 @@
   "description": "A restaurant home page for Random's Chaotic Dining!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "restaurantPage": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
   "author": "",
