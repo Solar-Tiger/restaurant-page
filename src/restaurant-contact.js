@@ -10,6 +10,8 @@ export default function loadAboutPage() {
 
   const header = document.createElement('header');
 
+  header.classList.add('dio');
+
   const h1 = document.createElement('h1');
 
   //   h1.textContent = 'Who are we?';
