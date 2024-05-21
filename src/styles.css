@@ -10,7 +10,7 @@ div {
   align-items: center;
 }
 
-#content:not(:last-child) {
+#content > * {
   margin-bottom: 30px;
 }
 
