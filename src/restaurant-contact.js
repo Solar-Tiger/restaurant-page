@@ -13,11 +13,8 @@ export default function loadAboutPage() {
   const h1 = document.createElement('h1');
 
   //   h1.textContent = 'Who are we?';
+
   h1.textContent = 'You were expecting a menu, BUT-';
-
-  homepageContent.appendChild(header);
-
-  header.appendChild(h1);
 
   //   IT WAS ME, DIO
 
@@ -26,7 +23,8 @@ export default function loadAboutPage() {
   dioImg.src = itWasMeDio;
   dioImg.width = '340';
 
-  homepageContent.appendChild(dioImg);
+  homepageContent.appendChild(header);
+  header.append(h1, dioImg);
 
   //   About page logo
 
