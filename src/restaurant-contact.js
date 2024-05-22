@@ -10,23 +10,23 @@ export default function loadAboutPage() {
 
   const header = document.createElement('header');
 
-  header.classList.add('dio');
+  // header.classList.add('dio');
 
   const h1 = document.createElement('h1');
 
-  //   h1.textContent = 'Who are we?';
+  h1.textContent = 'Who are we?';
 
-  h1.textContent = 'You were expecting a menu, BUT-';
+  // h1.textContent = 'You were expecting a menu, BUT-';
 
   //   IT WAS ME, DIO
 
-  const dioImg = document.createElement('img');
+  // const dioImg = document.createElement('img');
 
-  dioImg.src = itWasMeDio;
-  dioImg.width = '340';
+  // dioImg.src = itWasMeDio;
+  // dioImg.width = '340';
 
   homepageContent.appendChild(header);
-  header.append(h1, dioImg);
+  header.append(h1);
 
   //   About page logo
 

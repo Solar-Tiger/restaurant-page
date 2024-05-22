@@ -15,9 +15,9 @@ restaurantHome.addEventListener('click', () => {
 });
 
 restaurantMenu.addEventListener('click', () => {
-  loadRestaurantAboutPage();
+  loadRestaurantMenuPage();
 });
 
 restaurantAbout.addEventListener('click', () => {
-  loadRestaurantMenuPage();
+  loadRestaurantAboutPage();
 });
