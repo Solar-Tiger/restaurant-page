@@ -41,25 +41,25 @@ export default function loadRestaurantMenuPage() {
 
   // Menu items
 
-  for (let i = 0; i < chaosMenu.length; i++) {
+  chaosMenu.forEach((menuItem) => {
     const containerDiv = document.createElement('div');
 
     const img = document.createElement('img');
     const h2 = document.createElement('h2');
     const p = document.createElement('p');
 
-    img.src = chaosMenu[i].img;
+    img.src = menuItem.img;
     img.width = '340';
     img.height = '190';
-    img.alt = chaosMenu[i].imgAlt;
+    img.alt = menuItem.imgAlt;
 
-    h2.textContent = chaosMenu[i].name;
+    h2.textContent = menuItem.name;
     h2.classList.add('menu-header');
 
-    p.textContent = chaosMenu[i].description;
+    p.textContent = menuItem.description;
 
     containerDiv.append(img, h2, p);
 
     homepageContent.appendChild(containerDiv);
-  }
+  });
 }
